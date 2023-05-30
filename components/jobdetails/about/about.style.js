@@ -4,24 +4,24 @@ import { COLORS, FONT, SIZES } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: SIZES.large,
+    marginTop: SIZES.lg,
     backgroundColor: "#FFF",
-    borderRadius: SIZES.medium,
-    padding: SIZES.medium,
+    borderRadius: SIZES.md,
+    padding: SIZES.md,
   },
   headText: {
-    fontSize: SIZES.large,
+    fontSize: SIZES.lg,
     color: COLORS.primary,
     fontFamily: FONT.bold,
   },
   contentBox: {
-    marginVertical: SIZES.small,
+    marginVertical: SIZES.sm,
   },
   contextText: {
-    fontSize: SIZES.medium - 2,
+    fontSize: SIZES.md - 2,
     color: COLORS.gray,
     fontFamily: FONT.regular,
-    marginVertical: SIZES.small / 1.25,
+    marginVertical: SIZES.sm / 1.25,
   },
 });
 
